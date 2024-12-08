@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Nos services - Juan Entreprise</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Juan Entreprise">
+        </div>
+        <nav>
+            <a href="/">Accueil</a>
+            <a href="/about">À propos</a>
+            <a href="/services">Services</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Nos Services</h1>
+            <p>Nous offrons une gamme de services dans le domaine du Graphisme
+                - Conception d'Affiche de toute sorte
+                - Conception de logo
+                - Conception de Branding
+                - ect...
+                
+                Pour vous qui rêve d'avoir un bon site Web, Juan Entreprise vous ouvre grand ses portes.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Juan Entreprise. Tous droits  réservés.</p>
+    </footer>
+</body>
+</html>

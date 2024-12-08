@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>À propos - Juan Entreprise</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Juan Entreprise">
+        </div>
+        <nav>
+            <a href="/">Accueil</a>
+            <a href="/about">À propos</a>
+            <a href="/services">Services</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>À propos de Juan Entreprise</h1>
+            <p>Juan Entreprise se spécialise dans l'informatique. Notre mission est de vous offrir tout ce que vous désirez que ce soit en Graphisme, ou encore un site pour votre entreprise, blog, ect...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Juan Entreprise. Tous droits  réservés.</p>
+    </footer>
+</body>
+</html>
